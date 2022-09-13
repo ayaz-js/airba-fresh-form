@@ -1,0 +1,71 @@
+.form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px 0 0;
+
+  @media screen and (max-width: 425px) {
+    max-width: 300px;
+  }
+
+  &__input {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 100%;
+    border-radius: 16px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    outline: none;
+
+    &::placeholder {
+      opacity: 0.5;
+    }
+
+    @media screen and (max-width: 425px) {
+      padding: 10px;
+      border-radius: 8px;
+    }
+  }
+
+  &__input-error {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    min-height: 28px;
+    color: #b60000;
+    opacity: 0;
+    margin: 5px 0 0;
+    transition: opacity 0.3s ease-in;
+
+    &_active {
+      opacity: 1;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 14px 0 0;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+
+    &_active {
+      background-color: #30c04f;
+      color: #fff;
+      cursor: pointer;
+      border: #30c04f;
+    }
+
+    @media screen and (max-width: 425px) {
+      padding: 10px;
+      border-radius: 8px;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+/* stylelint-disable */
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Bold.eot');
+  src: local('SF Pro Display Bold'), local('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Bold'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Bold.woff2') format('woff2'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Bold.woff') format('woff'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Semibold.eot');
+  src: local('SF Pro Display Semibold'), local('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Semibold'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Semibold.woff') format('woff'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-SemiboldItalic.eot');
+  src: local('SF Pro Display SemiboldItalic'), local('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-SemiboldItalic'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-SemiboldItalic.woff2') format('woff2'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-SemiboldItalic.woff') format('woff'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Medium.eot');
+  src: local('SF Pro Display Medium'), local('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Medium'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Medium.woff2') format('woff2'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Medium.woff') format('woff'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Heavy.eot');
+  src: local('SF Pro Display Heavy'), local('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Heavy'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Heavy.woff2') format('woff2'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Heavy.woff') format('woff'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Regular.eot');
+  src: local('SF Pro Display Regular'), local('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Regular'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Regular.woff') format('woff'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-MediumItalic.eot');
+  src: local('SF Pro Display MediumItalic'), local('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-MediumItalic'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-MediumItalic.woff2') format('woff2'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-MediumItalic.woff') format('woff'),
+    url('https://www.technodom.kz/under/airba-fresh/fonts/SFProDisplay-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
