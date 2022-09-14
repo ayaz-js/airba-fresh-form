@@ -1,7 +1,6 @@
 import resetValidation from './validate';
-
-const form = document.querySelector('.form');
-const emailInput = form.querySelector('.form__input_type_email');
+import showPopup from './showPopup';
+import { popup, emailInput, form } from './constants';
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -12,10 +11,8 @@ form.addEventListener('submit', (event) => {
     fetch('https://script.google.com/macros/s/AKfycbyqWOd_B2jVU1g9MLiE-IbJTOMQTNyE9LtkoVcgeRujDx2oAftx_ktiTxJyPz2QCqIJlQ/exec', {
         method: 'POST',
         body:   formData,
-    }).then((response) => {
-        if (response.ok) {
-            form.reset();
-            resetValidation(form);
-        }
     });
+    form.reset();
+    resetValidation(form);
+    showPopup(popup);
 });
