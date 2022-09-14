@@ -19,9 +19,18 @@
     padding: 14px;
     text-align: center;
     outline: none;
+    transition: border-color 0.3s ease-in;
+
+    &:focus {
+      border-color: #30c04f;
+    }
 
     &_type_error {
-      border: 1px solid #b60000;
+      border-color: #b60000;
+
+      &:focus {
+        border-color: #b60000;
+      }
     }
 
     &::placeholder {
