@@ -2,80 +2,108 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title lang="en">Airba Fresh</title>
-  <link rel="icon" type="image/x-icon" href="https://www.technodom.kz/under/airba-fresh/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title lang="en">Airba Fresh</title>
+    <link rel="icon" type="image/x-icon" href="https://www.technodom.kz/under/airba-fresh/images/favicon.ico">
+
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '449626263802023');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=449626263802023&ev=PageView&noscript=1"/>
+    </noscript>
+
 </head>
 
 <body class="page">
 
 <div class="page__container">
 
-  <!-- header -->
-  <header class="header">
+    <!-- header -->
+    <header class="header">
 
-    <div class="header__wrapper">
-      <a href="/" class="header__link">
-        <img src="https://www.technodom.kz/under/airba-fresh/images/logo.svg" alt="Логотип: AirbaFresh"
-             class="header__logo">
-      </a>
+        <div class="header__wrapper">
+            <a href="/" class="header__link">
+                <img src="https://www.technodom.kz/under/airba-fresh/images/logo.svg" alt="Логотип: AirbaFresh"
+                     class="header__logo">
+            </a>
 
+        </div>
+
+    </header>
+
+    <!-- main content -->
+    <main class="main-content">
+
+        <!-- lead -->
+        <section class="lead">
+            <div class="lead__wrapper">
+                <h2 class="lead__title lead__title_lang_kz">Жақында.</h2>
+                <h2 class="lead__title lead__title_lang_en">Coming Soon.</h2>
+            </div>
+        </section>
+
+        <!-- form -->
+        <section class="form-section">
+
+            <div class="form-section__wrapper">
+                <h2 class="form-section__title">Оставьте e-mail и мы оповестим вас об открытии.</h2>
+
+                <form class="form" name="subscribe">
+
+                    <label class="form__field">
+                        <span class="email-input-error form__input-error"></span>
+                        <input name="email" type="email" placeholder="Ваша почта" id="email-input"
+                               class="form__input form__input_type_email" required>
+                    </label>
+
+                    <button type="submit" disabled class="form__button">Отправить</button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <img src="https://www.technodom.kz/under/airba-fresh/images/iphone13.svg" alt="" class="footer__image">
+        </div>
+    </footer>
+
+    <!-- popup -->
+    <div class="popup">
+        <div class="popup__container">
+            <button type="button" class="popup__close-button"></button>
+            <h2 class="popup__title">Спасибо!</h2>
+            <img src="https://www.technodom.kz/under/airba-fresh/images/popup-icon.svg" alt="" class="popup__icon">
+        </div>
     </div>
-
-  </header>
-
-  <!-- main content -->
-  <main class="main-content">
-
-    <!-- lead -->
-    <section class="lead">
-      <div class="lead__wrapper">
-        <h2 class="lead__title lead__title_lang_kz">Жақында.</h2>
-        <h2 class="lead__title lead__title_lang_en">Coming Soon.</h2>
-      </div>
-    </section>
-
-    <!-- form -->
-    <section class="form-section">
-
-      <div class="form-section__wrapper">
-        <h2 class="form-section__title">Оставьте e-mail и мы оповестим вас об открытии.</h2>
-
-        <form class="form" name="subscribe">
-
-          <label class="form__field">
-            <span class="email-input-error form__input-error"></span>
-            <input name="email" type="email" placeholder="Ваша почта" id="email-input"
-                   class="form__input form__input_type_email" required>
-          </label>
-
-          <button type="submit" disabled class="form__button">Отправить</button>
-
-        </form>
-
-      </div>
-
-    </section>
-
-  </main>
-
-  <footer class="footer">
-    <div class="footer__wrapper">
-      <img src="https://www.technodom.kz/under/airba-fresh/images/iphone13.svg" alt="" class="footer__image">
-    </div>
-  </footer>
-
-  <!-- popup -->
-  <div class="popup">
-    <div class="popup__container">
-      <button type="button" class="popup__close-button"></button>
-      <h2 class="popup__title">Спасибо!</h2>
-      <img src="https://www.technodom.kz/under/airba-fresh/images/popup-icon.svg" alt="" class="popup__icon">
-    </div>
-  </div>
 
 </div>
 
